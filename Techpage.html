@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <h1> My Technical Projects </h1>
+    <link id = "mainStyle" rel="stylesheet" type = "text/css" href="styles.css">
+    <script src = "button.js" async defer></script>
+    <h1 class = "techpagehead"> My Technical Projects </h1>
 </head>
-<body>
+<body class = "techfolio">
+
+    <a href = "https://github.com/DixantaG/react-apps" style = "text-decoration: none;"> <div class = "pbox1">  <h2> Project #1: Aggie MarketPlace</h2>
+        <p style = "color:black"> For my first every project I was able to learn three
+            languages: JavaScript, HTML, and CSS. In this project 
+            I accompanied a development team that constructed a webpage framework 
+            Communicated with team members on front-end integration, and
+            Implemented React components that enhanced UI functions of the webpage.
+        </p>
     
-    <h2> Project #1: Aggie MarketPlace</h2>
-    <p> For my first every project I was able to learn three
-        languages: JavaScript, HTML, and CSS. In this project <br>
-        I accompanied a development team that constructed a webpage framework 
-        Communicated <br> with team members on front-end integration, and
-        Implemented React <br> components that enhanced UI functions of the webpage.
-    </p>
+    </div></a>
+    
 
-    <h2> Project #2: Single Cycle Processor</h2>
-    <p> Since I am a Computer Engineering Major I have been able to work on both the hardware <br>
-        and software projects. One of the projects I completed was a single cycle processor which <br>
-        was primarly made with Verilog. In this project I designed a single cycle processor with a control <br>
-        unit and data path that aided in converting instructions sent to the processor, increased speed of <br> 
-        processor by 15% through better arranged data paths, and continuously stored and converted instructions 
-        <br> from memory and registers
-    </p>
+    <a href = "https://github.com/DixantaG/Single-Cycle-Processor" style = "text-decoration: none;"><div class = "pbox2"> <h2> Project #2: Single Cycle Processor</h2>
+        <p style = "color:black"> Since I am a Computer Engineering Major I have been able to work on both the hardware 
+            and software projects. One of the projects I completed was a single cycle processor which
+            was primarly made with Verilog. In this project I designed a single cycle processor with a control 
+            unit and data path that aided in converting instructions sent to the processor, increased speed of 
+            processor by 15% through better arranged data paths, and continuously stored and converted instructions 
+            from memory and registers
+        </p>
+    </div> </a> 
 
-    <h2> Project #3: FitChat</h2>
-    <p> FitChat is currently a project that I am working on, and it has been my favority project that I have
-        worked on as well. <br> By using JavaScript and the React library, I am on the way of creating a chat webpage
-        appplication that allows users <br> to communicate with others through channels.  Users will be able to create profiles, and
-        there will be a username and <br> password option as well. To allow other users use the application I used Node.js in order
-        for it to be allowed on the server side. 
-    </p>
+    <a href = "https://github.com/DixantaG/FitChat" style = "text-decoration: none;"> <div class = "pbox3"> <h2> Project #3: FitChat</h2>
+        <p style = "color:black"> FitChat is currently a project that I am working on, and it has been my favority project that I have
+            worked on as well.  By using JavaScript and the React library, I am on the way of creating a chat webpage
+            appplication that allows users to communicate with others through channels.  Users will be able to create profiles, and
+            there will be a username and password option as well. To allow other users use the application I used Node.js in order
+            for it to be allowed on the server side. 
+        </p>
+     
+    
+    </div></a>
 
-    <div class = "techpage"> <a href = "index.html"> HomePage </a> </div>
-    <div class = "techpage" style = "left:300px;"> <a href = "https://github.com/DixantaG">
+    <div class = "techpage"> <a href = "index.html" style = "text-decoration: none;"> HomePage </a> </div>
+    <div class = "techpage" style = "left:300px;"> <a href = "https://github.com/DixantaG" style = "text-decoration: none;">
         Github
     </a> </div>
+
+    <button type = "button" onclick = "toggleStyleSheet()">Change</button>
 
     
 </body>

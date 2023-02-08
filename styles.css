@@ -35,9 +35,76 @@ h1 {
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 450px;
-  bottom: 50px;
+  left: 30%;
+  bottom: 5%;
 }
+
+.links2 {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 40%;
+  bottom: 5%;
+}
+
+.links3 {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+}
+
+.links4 {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 60%;
+  bottom: 5%;
+}
+
+.links5 {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 70%;
+  bottom: 5%;
+}
+
+.links6 {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 80%;
+  bottom: 5%;
+}
+
+
 
 .container {
   position: relative;
@@ -47,15 +114,31 @@ h1 {
 }
 
 .text {
+    width: 500px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.952);
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    right: 3%;
+}
+
+.resume {
   position: absolute;
-  top: 150px;
-  left: 1100px;
+  right: 80%;
+  top: 18%;
+  width: 20%;
+  height: 50%;
 }
 
 .bulk {
   position: absolute;
-  top: 200px;
-  left: 900px;
+  top: 20%;
+  left: 60%;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .techpage {
@@ -98,3 +181,56 @@ strong {
   display: block;
   font-weight: bold;
 }
+
+button {
+  right: 50%;
+}
+
+.box {
+  width: 400px;
+  height: 200px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.outside-bar {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.label {
+  width: 30%;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.bar {
+  width: 70%;
+  height: 20px;
+  background-color: lightblue;
+}
+
+#bar1 {
+  width: 100%;
+}
+
+#bar2 {
+  width: 100%;
+}
+
+#bar3 {
+  width: 50%
+}
+
+#bar4 {
+  width: 0%;
+}
+
+

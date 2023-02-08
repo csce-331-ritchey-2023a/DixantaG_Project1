@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link id = "mainStyle" rel="stylesheet" type = "text/css" href="styles.css">
+    <script src = "button.js" async defer></script>
 </head>
-<body>
+<body class = "qual">
 
-    <h1 style = "text-align: center;"> Qualifications </h1>
+    <h1 class = "temp"> Qualifications </h1>
 
-    <h2> My Resume</h2>
+    <h3> My Resume</h3>
+
     <div> <a href="Dixanta_Ghimire_Resume.pdf">
-        <img src ="Dixanta_Ghimire_Resume.jpg" width = "300" length = "300" style = "left:25px;">
-    </a> 
-    </div> 
+        <img src ="Dixanta_Ghimire_Resume.jpg" class = "resume">
+     
+    </div> </a>
 
-    <div class = "text"> <h2> My Technical Skills and Intrests</h2>
-    <p> My Technical Skills include Python, C++, JavaScript, HTML, CSS <br>
-        Verilog, and Assembly. With Computer Engineerign combining both software <br> 
-        and hardware, I have taken a liking to the software side much more. Lately I have <br>
-        been much more intersted on what the backend of software enginnering entails, and <br> 
+    <div class = "text"> <h2> My Technical Skills and Interests</h2>
+    <p> My Technical Skills include Python, C++, JavaScript, HTML, CSS 
+        Verilog, and Assembly. With Computer Engineerign combining both software  
+        and hardware, I have taken a liking to the software side much more. Lately I have 
+        been much more intersted on what the backend of software enginnering entails, and  
         since ChatGPT I have been more intrested in AI. 
     </p>
 
     </div>
 
-    <div class = "techpage"> <a href = "index.html"> HomePage </a> </div>
+    <div class = "techpage"> <a href = "index.html" style = "text-decoration: none;"> HomePage </a> </div>
+
+    <div class = "links5">
+        <button type = "button" onclick = "toggleStyleSheet()">Change</button>
+    </div>
 
     
 
